@@ -395,7 +395,8 @@ p,a,ul,li{
 }
 .apps-craft-subscribe-form input[type="submit"]{
 	background-color: #6ade8b;
-}
+    box-shadow: 3px 2px 3px 2px #636363;
+    }
 .apps-craft-accordion .panel-title a:before{
 	background-color: #f34e50;
 	background-image: -webkit-linear-gradient(-131deg, #fa326f, #f2504d 99%, #f2514c);
@@ -3639,9 +3640,9 @@ blockquote.team-quote p {
 .apps-craft-subscribe-form input[type="submit"]{
 	width: 160px;
 	height: 54px;
-	border-radius: 27px;
+	border-radius: 0px;
 	border: 0px;
-	margin-left: -170px;
+	margin-left: 0px;
 	font-size: 1.286em;
 	font-weight: 500;
 	color: #FFFFFF;
@@ -3804,7 +3805,7 @@ body.apps-craft-v6 .apps-craft-subscribe-content {
 .apps-craft-contact-form input[type="submit"]{
 	width: 180px;
 	height: 60px;
-	border-radius: 3px;
+	border-radius: 0px;
 	border: 0px solid;
 	color: #FFFFFF;
 	font-weight: 400;
