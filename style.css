@@ -187,7 +187,14 @@ h2{
     line-height: 1;
 }
 
-p,h5,a,ul,li{
+h5{
+  font-family: 'montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1;  
+}
+p,a,ul,li{
 	line-height: 1;
 }
 .clear-both:before, 
@@ -3610,7 +3617,7 @@ blockquote.team-quote p {
 .apps-craft-subscribe-form input[type="email"]{
 	width: calc(100% - 0px);
 	height: 70px;
-	border-radius: 35px;
+	border-radius: 0px;
 	background-color: rgba(244,244,244,.98);
 	border: solid 1px #c1c1c1;
 	padding: 0 30px;
@@ -3823,7 +3830,7 @@ body.apps-craft-v6 .apps-craft-subscribe-content {
 	background-color: rgba(244,244,244,.98);
 	box-shadow: 0 8px 20px rgba(0,0,0,.28);
 	border-color: #c1c1c1;
-	border-radius: 35px;
+	border-radius: 0px;
 }
 .apps-craft-footer-section .apps-craft-subscribe-content{
 	margin-bottom: 115px;
@@ -4179,10 +4186,10 @@ label.apps-craft-subscribed-label{
 }
 .apps-craft-subscribe-form {
 	background-color: #fff;
-	border-top-right-radius: 35px;
-	border-top-left-radius: 35px;
-	border-bottom-left-radius: 35px;
-	border-bottom-right-radius: 35px;
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
 }
 
 
@@ -4321,7 +4328,7 @@ h2.feature_author {
 .apps-craft-subscribe-form input[type="text"] {
     width: calc(100% - 0px);
     height: 70px;
-    border-radius: 35px;
+    border-radius: 0px;
     background-color: rgba(244,244,244,.98);
     border: solid 1px #c1c1c1;
     padding: 0 30px;
