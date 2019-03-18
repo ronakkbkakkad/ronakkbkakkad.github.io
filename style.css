@@ -151,7 +151,7 @@ ul {
 }
 h4{
     font-family: 'montserrat';
-    font-weight: 100;
+    font-weight: 400;
     color: #ffffff;
     font-size: 16px;
     line-height: 1.1;
@@ -3618,7 +3618,7 @@ blockquote.team-quote p {
 .apps-craft-subscribe-form input[type="email"]{
 	width: calc(100% - 0px);
 	height: 70px;
-	border-radius: 0px;
+	border-radius: 10px;
 	background-color: rgba(244,244,244,.98);
 	border: solid 1px #c1c1c1;
 	padding: 0 30px;
@@ -3640,15 +3640,15 @@ blockquote.team-quote p {
 .apps-craft-subscribe-form input[type="submit"]{
 	width: 160px;
 	height: 54px;
-	border-radius: 0px;
+	border-radius: 10px;
 	border: 0px;
-	margin-left: 0px;
+	margin-left: -15px;
 	font-size: 1.286em;
 	font-weight: 500;
 	color: #FFFFFF;
 	text-transform: capitalize;
 	float: left;
-	margin-top: 8px;
+	margin-top: 18px;
 }
 body.apps-craft-v6 .apps-craft-subscribe-content {
     position: relative;
@@ -4187,10 +4187,10 @@ label.apps-craft-subscribed-label{
 }
 .apps-craft-subscribe-form {
 	background-color: #fff;
-	border-top-right-radius: 0px;
-	border-top-left-radius: 0px;
-	border-bottom-left-radius: 0px;
-	border-bottom-right-radius: 0px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
 
 
@@ -4329,7 +4329,7 @@ h2.feature_author {
 .apps-craft-subscribe-form input[type="text"] {
     width: calc(100% - 0px);
     height: 70px;
-    border-radius: 0px;
+    border-radius: 10px;
     background-color: rgba(244,244,244,.98);
     border: solid 1px #c1c1c1;
     padding: 0 30px;
