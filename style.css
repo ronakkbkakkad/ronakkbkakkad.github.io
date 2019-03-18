@@ -3642,7 +3642,7 @@ blockquote.team-quote p {
 	height: 54px;
 	border-radius: 10px;
 	border: 0px;
-	margin-left: -15px;
+	margin-left: 0px;
 	font-size: 1.286em;
 	font-weight: 500;
 	color: #FFFFFF;
@@ -3791,6 +3791,7 @@ body.apps-craft-v6 .apps-craft-subscribe-content {
 	transition: all .4s linear;
 	display: block;
 	margin-bottom: 15px;
+    box-shadow: 10px 3px 27px rgba(0,0,0,.08);
 }
 .apps-craft-contact-form textarea {
 	resize: none;
@@ -3799,7 +3800,7 @@ body.apps-craft-v6 .apps-craft-subscribe-content {
 }
 .apps-craft-contact-form input[type="email"]:focus,
 .apps-craft-contact-form textarea:focus {
-	box-shadow: 0 3px 27px rgba(0,0,0,.08);
+	box-shadow: 0 8px 20px rgba(0,0,0,.28);
 	border-color: #fff;
 }
 .apps-craft-contact-form input[type="submit"]{
@@ -3831,7 +3832,7 @@ body.apps-craft-v6 .apps-craft-subscribe-content {
 	background-color: rgba(244,244,244,.98);
 	box-shadow: 0 8px 20px rgba(0,0,0,.28);
 	border-color: #c1c1c1;
-	border-radius: 0px;
+	border-radius: 10px;
 }
 .apps-craft-footer-section .apps-craft-subscribe-content{
 	margin-bottom: 115px;
