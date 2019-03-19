@@ -151,11 +151,11 @@ ul {
 }
 h4{
     font-family: 'montserrat';
-    font-weight: 500;
+    font-weight: 100;
     color: #ffffff;
-    font-size: 18px;
-    line-height: 1.5;
-}
+    font-size: 16px;
+        line-height: 1.5;
+    }
 h6{
     font-family: 'montserrat';
     font-weight: 100;
@@ -211,7 +211,7 @@ p,a,ul,li{
 	padding-top: 40px;
 }
 .content-margin-top {
-	margin-top: 40px;
+	margin-top: 0px;
 }
 .apps-craft-sub-scribe-section.section-padding {
 	padding: 230px 0 130px 0;
@@ -4296,14 +4296,14 @@ h3.feature_contents {
 }
     
     .apps-craft-section-heading {
-    padding-top: 80px;
+    padding-top: 40px;
 }
 section#apps-craft-feature {
     padding: 30px 0;
 }
 .apps-craft-feature-section .content-margin-top {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .apps-craft-single-team.wow.fadeIn {
     display: table-cell;
@@ -4347,7 +4347,7 @@ div#apps-craft-about {
 }
 .apps-craft-welcome-tbl {
     height: 50vh;
-    padding-bottom: 55px;
+    padding-bottom: 25px;
 }
 .apps-craft-section-heading h2 {
     text-align: center !important;
