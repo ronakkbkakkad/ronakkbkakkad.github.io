@@ -3642,7 +3642,7 @@ blockquote.team-quote p {
 	height: 54px;
 	border-radius: 10px;
 	border: 0px;
-	margin-left: 0px;
+	margin-left: -15px;
 	font-size: 1.286em;
 	font-weight: 500;
 	color: #FFFFFF;
