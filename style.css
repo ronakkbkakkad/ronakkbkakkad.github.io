@@ -94,7 +94,7 @@ body {
 	font-family: 'montserrat';
 	font-size: 14px;
 	font-weight: 100;
-	line-height: 1;
+	line-height: 1.5;
 	color: #272727;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -151,40 +151,40 @@ ul {
 }
 h4{
     font-family: 'montserrat';
-    font-weight: 400;
+    font-weight: 500;
     color: #ffffff;
-    font-size: 16px;
-    line-height: 1.1;
+    font-size: 18px;
+    line-height: 1.5;
 }
 h6{
     font-family: 'montserrat';
     font-weight: 100;
     color: #ffffff;
-    font-size: 32px;
-    line-height: 1.4;
+    font-size: 36px;
+    line-height: 1.5;
 }
 h1{
     font-family: 'montserrat';
-    font-size: 50px;
-    font-weight: 400;
+    font-size: 40px;
+    font-weight: 500;
     color: #fff;
-    line-height: 1;
+    line-height: 1.5;
   }
 
 h3{
      font-family: 'montserrat';
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 200;
     color: #fff;
-    line-height: 1;
+    line-height: 1.5;
 }
 
 h2{
      font-family: 'montserrat';
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 40px;
+    font-weight: 500;
     color: #fff;
-    line-height: 1;
+    line-height: 1.2;
 }
 
 h5{
@@ -192,10 +192,10 @@ h5{
     font-size: 16px;
     font-weight: 400;
     color: #fff;
-    line-height: 1;  
+    line-height: 1.5;  
 }
 p,a,ul,li{
-	line-height: 1;
+	line-height: 1.5;
 }
 .clear-both:before, 
 .clear-both:after{
@@ -395,7 +395,7 @@ p,a,ul,li{
 }
 .apps-craft-subscribe-form input[type="submit"]{
 	background-color: #6ade8b;
-    box-shadow: 3px 2px 3px 2px #bababa;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
     }
 .apps-craft-accordion .panel-title a:before{
 	background-color: #f34e50;
@@ -1976,7 +1976,7 @@ body.apps-craft-video-banner .apps-craft-welcome-container {
 	font-weight: 400;
 	font-size: inherit;
 	letter-spacing: 1px;
-	line-height: 1;
+	line-height: 1.5;
 }
 .apps-craft-welcome-screenshort img {
 	position: relative;
@@ -2332,7 +2332,7 @@ body.apps-craft-v7 .apps-craft-position-rel .layer img {
     color: #333;
     font-size: 3.429em;
     text-transform: capitalize;
-    line-height: 1.3;
+    line-height: 1.5;
     font-weight: 600;
 }
 .apps-craft-welcome-section-v18 .apps-craft-welcome-content h1 span {
@@ -2594,7 +2594,7 @@ body.apps-craft-v7 .apps-craft-position-rel .layer img {
 	height: 97px;
 	width: 97px;
 	margin-bottom: 30px;
-	line-height: 97px;
+	line-height: 1.5;
 }
 .apps-craft-single-about h3 {
 	margin: 0;
@@ -2606,7 +2606,7 @@ body.apps-craft-v7 .apps-craft-position-rel .layer img {
 	margin: 0;
 	padding: 0 5px;
 	color: #fff;
-	line-height: 20px;
+	line-height: 1.5;
 }
 .apps-craft-single-about .space {
     height: 15px;
@@ -2664,7 +2664,7 @@ body.apps-craft-v7 .apps-craft-position-rel .layer img {
 	border-radius: 100%;
 	background-color: #f2504d;
 	box-shadow: 0 18px 32px rgba(0,0,0,.28);
-	line-height: 76px;
+	line-height: 1.5;
 	display: inline-block;
 	margin-bottom: 20px;
 	-webkit-transition: background .4s linear;
@@ -3375,7 +3375,7 @@ blockquote.team-quote p {
 .apps-craft-pricing-body h2{
 	margin: 0;
 	font-size: 4.286em;
-	font-weight: 500;
+	font-weight: 600;
 	margin-bottom: 55px;
 }
 .apps-craft-pricing-body p{
@@ -3383,7 +3383,7 @@ blockquote.team-quote p {
     font-weight: 400;
     margin: 0 auto 10px auto;
     width: calc(100% - 50px);
-    line-height: 1.7;
+    line-height: 1.5;
     text-transform: capitalize;
 }
 .apps-craft-pricing-1 {
@@ -3554,7 +3554,7 @@ blockquote.team-quote p {
 	font-weight: 400;
 	color: #E3E3E3;
 	margin-bottom: 66px;
-	line-height: 2;
+	line-height: 1.5;
 }
 
 
@@ -3609,7 +3609,7 @@ blockquote.team-quote p {
 	margin-bottom: 57px;
 	font-weight: 400;
 	text-align: center;
-	line-height: 1.3;
+	line-height: 1.5;
 }
 .apps-craft-subscribe-content h2 span{
 	font-weight: 600;
@@ -3642,7 +3642,7 @@ blockquote.team-quote p {
 	height: 54px;
 	border-radius: 10px;
 	border: 0px;
-	margin-left: 0px;
+	margin-left: -10px;
 	font-size: 1.286em;
 	font-weight: 500;
 	color: #FFFFFF;
@@ -3774,7 +3774,7 @@ body.apps-craft-v6 .apps-craft-subscribe-content {
 	font-weight: 400;
 	font-size: 2.571em;
 	margin-bottom: 32px;
-	line-height: 1.2;
+	line-height: 1.5;
 }
 .apps-craft-contact-form-content h2 span {
 	font-weight: 700;
@@ -3830,7 +3830,7 @@ body.apps-craft-v6 .apps-craft-subscribe-content {
 }
 .apps-craft-subscribe-form-box-shadow {
 	background-color: rgba(244,244,244,.98);
-	box-shadow: 0 8px 20px rgba(0,0,0,.28);
+	box-shadow: 3px 3px 8px rgba(0,0,0,.15);
 	border-color: #c1c1c1;
 	border-radius: 10px;
 }
@@ -4256,10 +4256,10 @@ body.apps-craft-v9 .apps-craft-welcome-section .apps-craft-welcome-tbl {
 
 .apps-craft-menu ul li a {
 
-    font-weight: 100;
+    font-weight: 600;
     font-family: montserrat !IMPORTANT;
     text-transform: capitalize;
-    font-size: 18px;
+    font-size: 14px;
 }
 .apps-craft-menu ul li a:hover{
     color: #6cea91;
@@ -4291,7 +4291,7 @@ h3.feature_contents {
     color: #000;
     font-weight: 100;
     text-align: left;
-    line-height: 30px;
+    line-height: 1.5;
     margin-top: 35px;
 }
     
@@ -4383,7 +4383,7 @@ h2.feature_subheading {
     margin: 0;
     padding: 0 5px;
     color: #fff;
-    line-height: 22px;
+    line-height: 1.5;
     font-size: 22px;
     font-weight: 400;
     font-family: montserrat;
@@ -4418,6 +4418,7 @@ h2.feature_subheading {
 }
 .apps-craft-menu ul li a {
     color: #272727;
+    font-weight: 600;
 }
 .apps-craft-menu ul li {
     border-bottom: 1px solid #f6f7f8 !important;
