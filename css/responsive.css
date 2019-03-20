@@ -107,7 +107,7 @@ body.apps-craft-v7 .apps-craft-position-rel {
     width: 100%;
 }
 .content-margin-top {
-    margin-top: 80px;
+    margin-top: 60px;
 }
 .apps-craft-menu ul li a {
     font-size: 1.0em;
@@ -528,6 +528,11 @@ body.apps-craft-v6 .apps-craft-video-content {
 /*		Mobile Layout: 320px. */
 
 @media only screen and (max-width: 767px) {
+    
+    .apps-craft-welcome-tbl-c{
+	display: table-cell;
+	vertical-align: center;
+}
 	
 #apps-craft-main-menu-icon {
     display: block;
@@ -673,7 +678,7 @@ body.apps-craft-solid-color #apps-craft-menu {
     position: static;
 }
 .apps-craft-welcome-section .apps-craft-welcome-tbl, .apps-craft-welcome-screenshort .apps-craft-welcome-tbl {
-    height: 430px;
+    height: 350px;
 }
 .apps-craft-welcome-content {
     text-align: center;
@@ -698,10 +703,10 @@ body.apps-craft-solid-color #apps-craft-menu {
     font-size: 2.5em;
 }
 .section-padding, .apps-craft-why-chose-us-section.section-padding {
-    padding: 80px 0;
+    padding: 30px 0;
 }
 .apps-craft-feature-section .content-margin-top {
-    margin-top: 150px;
+    margin-top: 50px;
 }
 .apps-craft-feature-section {
     overflow: hidden;
@@ -785,13 +790,13 @@ figure.apps-craft-why-chose-img img:last-child {
     margin-right: auto;
 }
 .apps-craft-team {
-    margin-top: 35px;
+    margin-top: 25px;
 }
 .apps-craft-team-img:before {
-    height: 55px;
+    height: 25px;
 }
 .apps-craft-team-img {
-    margin-bottom: 58px;
+    margin-bottom: 25px;
 }
 .apps-craft-now-available-content {
     width: 100%;
@@ -829,7 +834,7 @@ figure.apps-craft-why-chose-img img:last-child {
 .apps-craft-subscribe-form input[type="submit"] {
     width: 100px;
     height: 40px;
-    margin-left: -108px;
+    margin-left: -10px;
     font-size: 1.0em;
     margin-top: 8px;
 }
@@ -902,7 +907,7 @@ figure.apps-craft-why-chose-img img:last-child {
     margin: 0 5px;
 }
 body.apps-craft-v3 .apps-craft-welcome-section .apps-craft-welcome-tbl {
-    margin-top: 90px;
+    margin-top: 60px;
 }
 .apps-craft-welcome-section-v3 .apps-craft-welcome-content p {
     width: 90%;
