@@ -4343,11 +4343,11 @@ h2.feature_author {
     height: 570px;
 }
 div#apps-craft-about {
-    margin-top: 60px;
+    margin-top: 30px;
 }
 .apps-craft-welcome-tbl {
-    height: 50vh;
-    padding-bottom: 25px;
+    height: 50px;
+    padding-bottom: 10px;
 }
 .apps-craft-section-heading h2 {
     text-align: center !important;
@@ -4357,9 +4357,11 @@ h3.feature_contents {
 }
 h2.feature_subheading {
     text-align: center;
+    align-content: center;
 }
 .apps-craft-feature-section .content-margin-top {
-    margin-top: 0px;
+    margin-top: -20px;
+    margin-bottom: auto;
 }
 .apps-craft-single-team.wow.fadeIn {
     display: block;
@@ -4376,6 +4378,11 @@ h2.feature_subheading {
 }
 .apps-craft-welcome-section .apps-craft-welcome-tbl, .apps-craft-welcome-screenshort .apps-craft-welcome-tbl {
     height: 590px !Important;
+    align-content: center;
+    padding-top: 10px;
+}
+.apps-craft-welcome-tbl-c{
+	vertical-align: center;
 }
 }
 
