@@ -828,15 +828,15 @@ figure.apps-craft-why-chose-img img:last-child {
 }
 .apps-craft-subscribe-form input[type="email"] {
     width: calc(100% - 0px);
-    height: 55px;
-    padding: 0 15px;
+    height: 70px;
+    padding: 0 30px;
 }
 .apps-craft-subscribe-form input[type="submit"] {
-    width: 100px;
-    height: 40px;
+    width: 150px;
+    height: 60px;
     margin-left: -10px;
     font-size: 1.0em;
-    margin-top: 8px;
+    margin-top: 18px;
 }
 .apps-craft-subscribe-wraper {
     padding: 115px 0;
