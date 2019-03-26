@@ -392,8 +392,8 @@
             background-image: -ms-linear-gradient( -20deg, rgb(242,81,76) 0%, rgb(242,81,76) 0%, rgb(242,81,77) 0%, rgb(242,80,77) 1%, rgb(246,65,94) 57%, rgb(250,50,111) 100%);
         }
         .apps-craft-subscribe-form input[type="submit"]{
-            background-color: #6ade8b;
-            box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.15);
+            background-color: #272727;
+           
             }
         .apps-craft-accordion .panel-title a:before{
             background-color: #f34e50;
