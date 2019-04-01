@@ -151,7 +151,7 @@
         }
         h4{
             font-family: 'montserrat';
-            font-weight: 600;
+            font-weight: 500;
             color: #ffffff;
             font-size: 18px;
                 line-height: 1.5;
@@ -392,7 +392,7 @@
             background-image: -ms-linear-gradient( -20deg, rgb(242,81,76) 0%, rgb(242,81,76) 0%, rgb(242,81,77) 0%, rgb(242,80,77) 1%, rgb(246,65,94) 57%, rgb(250,50,111) 100%);
         }
         .apps-craft-subscribe-form input[type="submit"]{
-            background-color: #272727;
+            background-color: #379151;
            
             }
         .apps-craft-accordion .panel-title a:before{
