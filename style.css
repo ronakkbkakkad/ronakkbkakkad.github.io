@@ -4379,7 +4379,7 @@
             background-color: #272727;
         }
         .apps-craft-welcome-section .apps-craft-welcome-tbl, .apps-craft-welcome-screenshort .apps-craft-welcome-tbl {
-            height: 590px !Important;
+            height: 400px !Important;
             align-content: center;
             padding-top: 10px;
         }
