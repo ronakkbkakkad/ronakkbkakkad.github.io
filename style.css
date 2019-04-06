@@ -4381,7 +4381,7 @@
         .apps-craft-welcome-section .apps-craft-welcome-tbl, .apps-craft-welcome-screenshort .apps-craft-welcome-tbl {
             height: 500px !Important;
             align-content: center;
-            padding-top: 10px;
+            padding-top: 120px;
         }
         .apps-craft-welcome-tbl-c{
             vertical-align: center;
