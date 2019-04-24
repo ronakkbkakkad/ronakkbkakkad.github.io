@@ -62,10 +62,9 @@
         /*====================================================================== 
                 1. Apps Craft Typography 
         ====================================================================================*/
-        @font-face {
+      /*  @font-face {
           font-family: 'montserrat';
           src: url(fonts/Montserrat-Black.otf);
-          /*MontserratAlternates-Regular*/
             font-style: normal;
             font-weight: 200;
         }
@@ -89,7 +88,7 @@
             font-weight: 800;
         }
 
-
+*/
         body {
             font-family: 'montserrat';
             font-size: 14px;
@@ -2597,12 +2596,22 @@
             margin-bottom: 30px;
             line-height: 1.5;
         }
+        .apps-craft-single-about h2 {
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
         .apps-craft-single-about h3 {
             margin: 0;
             font-size: 1.714em;
             font-weight: 500;
             margin-bottom: 28px;
         }
+        .apps-craft-single-about h4 {
+            font-weight: 600;
+            /*font-size: 22px;*/
+        }
+
         .apps-craft-single-about p {
             margin: 0;
             padding: 0 5px;
@@ -2619,11 +2628,7 @@
             left: 0;
             z-index: 1;
         }
-        .apps-craft-single-about h2 {
-            margin-top: 0;
-            margin-bottom: 20px;
-        }
-
+        
         /*===================================================================
                 5. Apps Craft Feature Section 
         ===================================================================================*/
@@ -3625,6 +3630,7 @@
             padding: 0 30px;
             color: #000;
             float: left;
+            font-weight: 300;
         }
         .apps-craft-subscribe-form input[type="email"]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
             color: #666666;
@@ -4291,14 +4297,15 @@
         }
         h3.feature_contents {
             color: #000;
-            font-weight: 100;
+            font-weight: 300;
             text-align: left;
             line-height: 1.5;
             margin-top: 35px;
         }
 
             .apps-craft-section-heading {
-            padding-top: 40px;
+            padding-top: 100px;
+            padding-bottom: 100px;
         }
         section#apps-craft-feature {
             padding: 30px 0;
@@ -4338,6 +4345,11 @@
             padding: 0 30px;
             color: #000;
             float: left;
+            font-weight: 300;
+        }
+        span.feature_subheading{
+            font-size: 30px;
+            font-weight: 600;
         }
 
         @media only screen and (max-width: 767px){
@@ -4345,11 +4357,12 @@
             height: 570px;
         }
         div#apps-craft-about {
-            margin-top: 30px;
+            margin-top: 60px;
+            margin-bottom: 60px;
         }
         .apps-craft-welcome-tbl {
             height: 50px;
-            padding-bottom: 10px;
+            /*padding-bottom: 100px;*/
         }
         .apps-craft-section-heading h2 {
             text-align: center !important;
@@ -4360,6 +4373,10 @@
         h2.feature_subheading {
             text-align: center;
             align-content: center;
+        }
+        span.feature_subheading{
+            font-size: 30px;
+            font-weight: 600;
         }
         .apps-craft-feature-section .content-margin-top {
             margin-top: -20px;
@@ -4379,9 +4396,9 @@
             background-color: #272727;
         }
         .apps-craft-welcome-section .apps-craft-welcome-tbl, .apps-craft-welcome-screenshort .apps-craft-welcome-tbl {
-            height: 500px !Important;
+            height: 500px;
             align-content: center;
-            padding-top: 120px;
+            /*padding-top: 120px;*/
         }
         .apps-craft-welcome-tbl-c{
             vertical-align: center;
@@ -4408,7 +4425,7 @@
             margin-top: 0px;
             margin-bottom: 0px;
             font-size: 30px;
-            font-weight: 400;
+            font-weight: 600;
             font-family: montserrat !important;
         }
         .apps-craft-menu ul li:last-child a {
@@ -4472,11 +4489,22 @@
             padding: 15px 0px 0px 0px;
         }
 
+       
         img.logo2 {
             display: none;
-            width: 150px;
+            width: 130px;
 
         }
 
         .sticky-menu img.logo2 {display: block;}
         .sticky-menu img.logo1 {display: none;}
+        .feature-section-img{
+            vertical-align: top;
+        }
+        .feature-sections{
+            height: 450px !important;
+        }
+        .ft-img{
+            width: 400px !important;
+        }
+        
