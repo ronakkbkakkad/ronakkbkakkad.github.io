@@ -11,8 +11,24 @@ body.apps-craft-v7 .apps-craft-position-rel {
 .apps-craft-welcome-section-v5 .apps-craft-position-rel {
     right: 15%;
 }
-
+.mission-para, .mission-para-top{
+    margin-top: 0px !important;
 }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+.apps-craft-welcome-container{
+    padding-bottom: 20px !important;
+   
+}  
+.feature-one-dashboard{
+    padding: 30px 0;
+}
+.mission-para, .mission-para-top{
+    margin-top: 0px !important;
+}
+}
+
 
 /*		Wide Display Layout: 1200px. */
 
@@ -203,6 +219,10 @@ body.apps-craft-v9 .apps-craft-welcome-section {
     top: 72%;
 }
 
+.apps-craft-welcome-container{
+    padding-bottom: 20px !important;
+   
+}
 
 
 }
@@ -685,7 +705,7 @@ body.apps-craft-solid-color #apps-craft-menu {
     text-align: center;
 }
 .apps-craft-single-about {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     font-weight: 500;
 }
 .apps-craft-welcome-content h1,
@@ -701,11 +721,14 @@ body.apps-craft-solid-color #apps-craft-menu {
 .apps-craft-btn {
     margin: 0 10px 0 0;
 }
+.apps-craft-section-heading{
+    padding-bottom:0;
+}
 .apps-craft-section-heading h2 {
     font-size: 2.5em;
 }
 .section-padding, .apps-craft-why-chose-us-section.section-padding {
-    padding: 30px 0;
+    padding: 80px 0;
 }
 .apps-craft-feature-section .content-margin-top {
     margin-top: 50px;
@@ -969,8 +992,53 @@ body.apps-craft-v6 .apps-craft-video-content {
 .apps-craft-welcome-section.apps-craft-welcome-section-v5:after {
     background-position: bottom center;
 }
+ img.logo1 {
+            width: 130px;
 
-
+        }
+   .apps-craft-welcome-content h6{
+    font-size: 2.0em;
+   }   
+   .apps-craft-single-about h4{
+    font-weight: 500;
+    margin-top:15px;
+    margin-bottom: 15px;
+   }
+figure.apps-craft-welcome-section-screen-short{
+    padding-bottom: 100px;
+}
+section#apps-craft-feature{
+    padding-top: 100px;
+}
+.sot{
+ padding-bottom: 0px !important;
+}
+.ods{
+    padding-top: 30px !important;
+}
+#mission{
+    padding: 0px;
+}
+h3.feature_contents{
+    font-size: 1.3em;
+}
+.wff{
+    margin-top:0px !important;
+}
+.founder{
+    padding-bottom: 100px !important;
+}
+#apps-craft-about{
+    margin-top: 100px !important;
+    
+}
+.apps-craft-welcome-section{
+    padding-top: 120px;
+}
+.ft-img{
+    margin: auto;
+    display: block;
+}
 	
 }
 
